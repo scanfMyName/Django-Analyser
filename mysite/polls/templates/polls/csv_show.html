@@ -1,0 +1,16 @@
+<table id="table" class="display" style="width: 100%;">
+  <thead>
+    <tr>
+      {% for header in headers %}
+      <th>{{ header }}</th>
+      {% endfor %}
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      {% for row in data %}
+      <td>{{ row }}</td>
+      {% endfor %}
+    </tr>
+  </tbody>
+</table>
